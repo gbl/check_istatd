@@ -255,6 +255,7 @@ int main(int argc, char **argv) {
 		putchar(' ');
 	}
 	putchar('\n');
+	exit(exitcode);
 }
 
 void addcheckresult(int rc, char type, char *param, int total,
